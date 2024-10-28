@@ -1,0 +1,43 @@
+student:
+  age: 10
+  name: zhangsan
+
+server:
+  port: 9002
+
+person:
+  name: '张三 \n 单引号'
+  age: 30
+  birthDay: 2001/1/1 12:12:12
+  like: true
+  child:
+    name: "李四 \n 双引号"
+    age: 20
+    birthday: 2018/10/10 12:12:12
+    text:
+      - abc
+      - def
+      - |
+        dogs:
+          - name: 小黑
+            age: 3
+          - name: 小白
+            age: 2
+      - >
+        ahsdjak
+        ask的la
+
+  dogs:
+    - name: 小黑
+      age: 3
+    - name: 小白
+      age: 2
+  cats:
+    c1:
+      name: 小蓝
+      age: 3
+    c2: {name: 小绿,age: 2}
+
+#logging:
+#  pattern:
+#    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} ===> %msg%n'
