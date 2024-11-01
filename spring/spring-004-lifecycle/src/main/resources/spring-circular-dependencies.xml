@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="husband" class="com.powernode.spring6.bean.Husband" scope="prototype">
+        <property name="name" value="zhangsan"/>
+        <property name="wife" ref="wife"/>
+    </bean>
+    <bean id="wife" class="com.powernode.spring6.bean.Wife" scope="singleton">
+        <property name="name" value="liu"/>
+        <property name="husband" ref="husband"/>
+    </bean>
+
+<!--    <bean id="husband" class="com.powernode.spring6.bean.Husband" scope="singleton">-->
+<!--        <constructor-arg name="name" value="zhangsan"/>-->
+<!--        <constructor-arg name="wife" ref="wife"/>-->
+<!--    </bean>-->
+<!--    <bean id="wife" class="com.powernode.spring6.bean.Wife" scope="singleton">-->
+<!--        <constructor-arg name="name" value="liu"/>-->
+<!--        <constructor-arg name="husband" ref="husband"/>-->
+<!--    </bean>-->
+</beans>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>首页</title>
+  <script th:src="@{/static/js/axios.js}"></script>
+  <script th:src="@{/static/js/vue.js}"></script></head>
+<body>
+<h1>首页</h1>
+<hr>
+
+<div id="app">
+  <h1>{{message}}</h1>
+  <button @click="getMessage">获取消息getMessage</button><br/><br/>
+  <button @click="sendJSON">发送消息sendJSON</button>
+</div>
+<br/><br/><br/><br/>
+<form method="post" th:action="@{/save}">
+  <input name="username" type="text" /><br/>
+  <input name="password" type="password" /><br/>
+  <input type="submit" value="保存">
+</form>
+
+<script th:inline="javascript">
+  let jsonObj = {"username":"zhangsan", "password":"1234"}
+
+  Vue.createApp({
+    data(){
+      return {
+        message : "这里的信息将被刷新"
+      }
+    },
+
+    methods:{
+
+      async getMessage(){
+        try {
+            const response = await axios.get([[@{/}]] + 'hello')
+            this.message = response.data
+        }catch (e){
+            console.error(e)
+            }
+
+      },
+
+      async sendJSON(){
+
+        try{
+          const res = await axios.post('/springmvc/send', JSON.stringify(jsonObj), {
+            headers : {
+              "Content-Type" : "application/json"
+            }
+          })
+          this.message = res.data
+        }catch(e){
+          console.error(e)
+        }
+      }
+
+    }
+  }).mount("#app")
+</script>
+
+</body>
+</html>

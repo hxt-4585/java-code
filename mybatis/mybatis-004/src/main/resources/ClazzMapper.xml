@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace先随意写一个-->
+<mapper namespace="com.powernode.mybatis.mapper.ClazzMapper">
+
+    <select id="selectByCid" resultType="Clazz">
+        select * from t_clazz where cid = #{cid}
+    </select>
+<!--    <resultMap id="clazzResultMap" type="Clazz">-->
+<!--        <id property="cid" column="cid"/>-->
+<!--        <result property="cname" column="cname"/>-->
+<!--        <collection property="students" ofType="student">-->
+<!--            <id property="sid" column="sid"/>-->
+<!--            <result property="sname" column="sname"/>-->
+<!--        </collection>-->
+<!--    </resultMap>-->
+    <resultMap id="clazzResultMap" type="Clazz">
+        <id property="cid" column="cid"/>
+        <result property="cname" column="cname"/>
+        <collection property="students"
+                    select="com.powernode.mybatis.mapper.StudentMapper.selectByCid"
+                    column="cid"/>
+    </resultMap>
+<!--    <select id="selectClazzAndStudentsByCid" resultMap="clazzResultMap">-->
+<!--        select * from t_clazz c join t_stu s on c.cid = s.cid where c.cid = #{cid}-->
+<!--    </select>-->
+    <select id="selectClazzAndStudentsByCid" resultMap="clazzResultMap">
+        select * from t_clazz where cid = #{cid}
+    </select>
+</mapper>
