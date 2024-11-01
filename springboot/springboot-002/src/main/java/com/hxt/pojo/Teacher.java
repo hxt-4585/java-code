@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Getter
 @Setter
 @ToString
-//@ConfigurationProperties(prefix = "teacher")
+@ConfigurationProperties(prefix = "teacher")
 public class Teacher {
     private String name;
     private Integer age;

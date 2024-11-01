@@ -38,6 +38,10 @@ person:
       age: 3
     c2: {name: 小绿,age: 2}
 
+teacher:
+  age: 20
+  name: wangwu
+
 #logging:
 #  pattern:
 #    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} ===> %msg%n'

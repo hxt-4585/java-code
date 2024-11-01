@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
 @Import({FastsqlException.class})
-//@EnableConfigurationProperties({Teacher.class})
+@EnableConfigurationProperties(Teacher.class)
 public class SpringBootConfiguration {
 
     @ConditionalOnClass(name = {"com.alibaba.druid.FastsqlException"})

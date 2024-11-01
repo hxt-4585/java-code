@@ -16,7 +16,7 @@ public class Springboot002Application {
 		//2、挨个遍历：
 		// dispatcherServlet、beanNameViewResolver、characterEncodingFilter、multipartResolver
 		// SpringBoot把以前配置的核心组件现在都给我们自动配置好了。
-		System.out.println(ioc.getBean("person").toString());
+		System.out.println(ioc.getBean("teacher").toString());
 	}
 
 }
