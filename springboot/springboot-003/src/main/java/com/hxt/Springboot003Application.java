@@ -9,7 +9,6 @@ public class Springboot003Application {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext ioc = SpringApplication.run(Springboot003Application.class, args);
-        System.out.println(ioc.getBean("myConfig"));
     }
 
 }
