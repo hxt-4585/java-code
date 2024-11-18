@@ -1,0 +1,9 @@
+2024-11-16 21:01:42,272 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2024-11-16 21:01:42,395 [DubboShutdownHook] INFO  com.alibaba.dubbo.config.AbstractConfig$1 (AbstractConfig.java:81) -  [DUBBO] Run shutdown hook now., dubbo version: 2.6.2, current host: 10.200.7.26
+2024-11-16 21:01:42,396 [DubboShutdownHook] INFO  com.alibaba.dubbo.registry.support.AbstractRegistryFactory (AbstractRegistryFactory.java:64) -  [DUBBO] Close all registries [], dubbo version: 2.6.2, current host: 10.200.7.26
+2024-11-16 21:09:49,832 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2024-11-16 21:09:50,015 [DubboShutdownHook] INFO  com.alibaba.dubbo.config.AbstractConfig$1 (AbstractConfig.java:81) -  [DUBBO] Run shutdown hook now., dubbo version: 2.6.2, current host: 10.200.7.26
+2024-11-16 21:09:50,016 [DubboShutdownHook] INFO  com.alibaba.dubbo.registry.support.AbstractRegistryFactory (AbstractRegistryFactory.java:64) -  [DUBBO] Close all registries [], dubbo version: 2.6.2, current host: 10.200.7.26
+2024-11-16 21:10:31,036 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2024-11-16 21:10:31,175 [DubboShutdownHook] INFO  com.alibaba.dubbo.config.AbstractConfig$1 (AbstractConfig.java:81) -  [DUBBO] Run shutdown hook now., dubbo version: 2.6.2, current host: 10.200.7.26
+2024-11-16 21:10:31,176 [DubboShutdownHook] INFO  com.alibaba.dubbo.registry.support.AbstractRegistryFactory (AbstractRegistryFactory.java:64) -  [DUBBO] Close all registries [], dubbo version: 2.6.2, current host: 10.200.7.26
