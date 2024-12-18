@@ -16,5 +16,13 @@
     <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
 
     <!--调用远程暴露的服务，生成远程服务代理-->
-    <dubbo:reference interface="com.hxt.gmall.service.UserService" id="userService"></dubbo:reference>
+    <dubbo:reference interface="com.hxt.gmall.service.UserService" id="userService" version="2.0.0" stub="com.hxt.gmall.service.impl.UserServiceStub">
+        <dubbo:method name="getUserAddressList"/>
+    </dubbo:reference>
+
+    <dubbo:consumer check="false" timeout="5000"></dubbo:consumer>
+    <!-- 两者都可以，registry表示从注册中心发现监控中心地址，否则直连监控中心 -->
+    <dubbo:monitor protocol="registry"></dubbo:monitor>
+<!--    <dubbo:monitor address="127.0.0.1:7070"></dubbo:monitor>-->
+
 </beans>

@@ -7,11 +7,11 @@ import java.util.concurrent.TimeoutException;
 
 public class Consumer {
     //队列的名称
-    public static final String QUEUE_NAME="hello";
+    public static final String QUEUE_NAME="mirror_hello";
     // 接受消息
     public static void main(String[] args) throws IOException, TimeoutException {
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("192.168.116.128");
+        factory.setHost("192.168.116.131");
         factory.setUsername("admin");
         factory.setPassword("20170440");
         Connection connection = factory.newConnection();

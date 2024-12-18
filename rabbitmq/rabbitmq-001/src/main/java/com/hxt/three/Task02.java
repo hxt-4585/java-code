@@ -23,7 +23,8 @@ public class Task02 {
         while (scanner.hasNext()){
             String message = scanner.next();
             // 将消息保存到磁盘
-            channel.basicPublish("",TASK_QUEUE_NAME, null,message.getBytes("UTF-8"));            System.out.println("生产者发出消息:"+ message);
+            channel.basicPublish("",TASK_QUEUE_NAME, null,message.getBytes("UTF-8"));
+            System.out.println("生产者发出消息:"+ message);
 
 //            channel.basicPublish("",TASK_QUEUE_NAME, MessageProperties.PERSISTENT_TEXT_PLAIN,message.getBytes("UTF-8"));            System.out.println("生产者发出消息:"+ message);
         }

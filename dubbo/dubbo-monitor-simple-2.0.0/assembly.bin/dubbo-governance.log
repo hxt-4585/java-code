@@ -1,0 +1,14 @@
+2024-11-18 21:45:40,551 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2024-11-18 21:45:40,581 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1
+2024-11-18 22:06:27,939 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2024-11-18 22:06:27,970 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1
+2024-11-19 21:36:38,822 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2024-11-19 21:36:38,854 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1
+2024-11-19 21:43:21,074 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2024-11-19 21:43:21,104 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1
+2024-11-20 16:45:49,262 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2024-11-20 16:45:49,293 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1
+2024-11-21 20:14:05,728 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2024-11-21 20:14:05,758 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1
+2024-11-22 21:25:04,450 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2024-11-22 21:25:04,483 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1

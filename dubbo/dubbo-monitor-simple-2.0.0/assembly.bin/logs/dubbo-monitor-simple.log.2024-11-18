@@ -1,0 +1,136 @@
+2024-11-18 21:45:41,141 [main] INFO  org.apache.curator.framework.imps.CuratorFrameworkImpl (CuratorFrameworkImpl.java:235) - Starting
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:host.name=DESKTOP-2GRHGDT
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.version=1.8.0_321
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.vendor=Oracle Corporation
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.home=E:\ProgramFiles\Java\jdk1.8.0_321\jre
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.class.path=..\conf;;..\lib\commons-logging-1.2.jar;..\lib\curator-client-2.12.0.jar;..\lib\curator-framework-2.12.0.jar;..\lib\dubbo-2.6.0.jar;..\lib\dubbo-monitor-simple-2.0.0.jar;..\lib\fastjson-1.2.31.jar;..\lib\guava-16.0.1.jar;..\lib\javassist-3.20.0-GA.jar;..\lib\javax.servlet-api-3.1.0.jar;..\lib\jcommon-1.0.16.jar;..\lib\jetty-6.1.26.jar;..\lib\jetty-util-6.1.26.jar;..\lib\jfreechart-1.0.13.jar;..\lib\jline-0.9.94.jar;..\lib\log4j-1.2.16.jar;..\lib\netty-3.2.5.Final.jar;..\lib\netty-3.7.0.Final.jar;..\lib\slf4j-api-1.7.25.jar;..\lib\slf4j-log4j12-1.7.25.jar;..\lib\spring-aop-4.3.10.RELEASE.jar;..\lib\spring-beans-4.3.10.RELEASE.jar;..\lib\spring-context-4.3.10.RELEASE.jar;..\lib\spring-core-4.3.10.RELEASE.jar;..\lib\spring-expression-4.3.10.RELEASE.jar;..\lib\spring-web-4.3.10.RELEASE.jar;..\lib\zookeeper-3.4.8.jar
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.library.path=E:\ProgramFiles\Java\jdk1.8.0_321\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\ProgramFiles\Java\jdk1.8.0_321\bin;E:\ProgramFiles\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;E:\ProgramFiles\anaconda3;E:\ProgramFiles\anaconda3\Scripts;E:\ProgramFiles\anaconda3\Library\bin;E:\ProgramFiles\anaconda3\Library\mingw-w64\bin;E:\ProgramFiles\anaconda3\Library\usr\bin;E:\ProgramFiles\Apache\apache-maven-3.9.9\bin;E:\ProgramFiles\MySQL\MySQL Server 8.0\bin;E:\ProgramFiles\Git\cmd;E:\ProgramFiles\nodejs\;E:\ProgramFiles\nodejs\node_global\node_modules;E:\ProgramFiles\NetSarang\Xshell 7\;E:\ProgramFiles\NetSarang\Xftp 7\;E:\ProgramFiles\Bandizip\;E:\ProgramFiles\Java\jdk1.8.0_321\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\hxt\AppData\Local\Microsoft\WindowsApps;E:\ProgramFiles\Microsoft VS Code\bin;E:\ProgramFiles\JetBrains\IntelliJ IDEA 2024.1.6\bin;E:\ProgramFiles\JetBrains\PyCharm 2024.1.6\bin;E:\ProgramFiles\nodejs\node_global;C:\Users\hxt\AppData\Local\Yarn\bin;C:\Users\hxt\AppData\Local\gitkraken\bin;.
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.io.tmpdir=C:\Users\hxt\AppData\Local\Temp\
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.compiler=<NA>
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:os.name=Windows 10
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:os.arch=amd64
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:os.version=10.0
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:user.name=hxt
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:user.home=C:\Users\hxt
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:user.dir=E:\AppData\IdeaProjects\dubbo\dubbo-monitor-simple\target\dubbo-monitor-simple-2.0.0\assembly.bin
+2024-11-18 21:45:41,151 [main] INFO  org.apache.zookeeper.ZooKeeper (ZooKeeper.java:438) - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@75437611
+2024-11-18 21:45:41,161 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1032) - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2024-11-18 21:45:41,161 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:876) - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2024-11-18 21:45:41,171 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1299) - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x10000edef100001, negotiated timeout = 40000
+2024-11-18 21:45:41,173 [main-EventThread] INFO  org.apache.curator.framework.state.ConnectionStateManager (ConnectionStateManager.java:228) - State change: CONNECTED
+2024-11-18 21:58:03,038 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1162) - Session 0x10000edef100001 for server 127.0.0.1/127.0.0.1:2181, unexpected error, closing socket connection and attempting reconnect
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2024-11-18 21:58:03,148 [main-EventThread] INFO  org.apache.curator.framework.state.ConnectionStateManager (ConnectionStateManager.java:228) - State change: SUSPENDED
+2024-11-18 21:58:04,729 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1032) - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2024-11-18 21:58:06,757 [main-SendThread(127.0.0.1:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1162) - Session 0x10000edef100001 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2024-11-18 21:58:08,195 [Curator-Framework-0] ERROR org.apache.curator.ConnectionState (ConnectionState.java:228) - Connection timed out for connection string (127.0.0.1:2181) and timeout (5000) / elapsed (5047)
+org.apache.curator.CuratorConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.curator.ConnectionState.checkTimeouts(ConnectionState.java:225)
+	at org.apache.curator.ConnectionState.getZooKeeper(ConnectionState.java:94)
+	at org.apache.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:117)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.performBackgroundOperation(CuratorFrameworkImpl.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:809)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.access$300(CuratorFrameworkImpl.java:64)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl$4.call(CuratorFrameworkImpl.java:267)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-18 21:58:08,263 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1032) - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2024-11-18 21:58:09,209 [Curator-Framework-0] ERROR org.apache.curator.ConnectionState (ConnectionState.java:228) - Connection timed out for connection string (127.0.0.1:2181) and timeout (5000) / elapsed (6061)
+org.apache.curator.CuratorConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.curator.ConnectionState.checkTimeouts(ConnectionState.java:225)
+	at org.apache.curator.ConnectionState.getZooKeeper(ConnectionState.java:94)
+	at org.apache.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:117)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.performBackgroundOperation(CuratorFrameworkImpl.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:809)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.access$300(CuratorFrameworkImpl.java:64)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl$4.call(CuratorFrameworkImpl.java:267)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-18 21:58:09,209 [Curator-Framework-0] INFO  org.apache.curator.framework.state.ConnectionStateManager (ConnectionStateManager.java:228) - State change: LOST
+2024-11-18 21:58:09,209 [Curator-Framework-0] ERROR org.apache.curator.framework.imps.CuratorFrameworkImpl (CuratorFrameworkImpl.java:557) - Background operation retry gave up
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkBackgroundRetry(CuratorFrameworkImpl.java:728)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.performBackgroundOperation(CuratorFrameworkImpl.java:857)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:809)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.access$300(CuratorFrameworkImpl.java:64)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl$4.call(CuratorFrameworkImpl.java:267)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-18 21:58:09,209 [Curator-Framework-0] ERROR org.apache.curator.framework.imps.CuratorFrameworkImpl (CuratorFrameworkImpl.java:557) - Background retry gave up
+org.apache.curator.CuratorConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.curator.ConnectionState.checkTimeouts(ConnectionState.java:225)
+	at org.apache.curator.ConnectionState.getZooKeeper(ConnectionState.java:94)
+	at org.apache.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:117)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.performBackgroundOperation(CuratorFrameworkImpl.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:809)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.access$300(CuratorFrameworkImpl.java:64)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl$4.call(CuratorFrameworkImpl.java:267)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-18 21:58:09,835 [Curator-Framework-0] INFO  org.apache.curator.framework.imps.CuratorFrameworkImpl (CuratorFrameworkImpl.java:821) - backgroundOperationsLoop exiting
+2024-11-18 21:58:10,404 [DubboShutdownHook] INFO  org.apache.zookeeper.ZooKeeper (ZooKeeper.java:684) - Session: 0x10000edef100001 closed
+2024-11-18 21:58:10,404 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn$EventThread (ClientCnxn.java:519) - EventThread shut down for session: 0x10000edef100001
+2024-11-18 22:06:28,535 [main] INFO  org.apache.curator.framework.imps.CuratorFrameworkImpl (CuratorFrameworkImpl.java:235) - Starting
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:host.name=DESKTOP-2GRHGDT
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.version=1.8.0_321
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.vendor=Oracle Corporation
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.home=E:\ProgramFiles\Java\jdk1.8.0_321\jre
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.class.path=..\conf;;..\lib\commons-logging-1.2.jar;..\lib\curator-client-2.12.0.jar;..\lib\curator-framework-2.12.0.jar;..\lib\dubbo-2.6.0.jar;..\lib\dubbo-monitor-simple-2.0.0.jar;..\lib\fastjson-1.2.31.jar;..\lib\guava-16.0.1.jar;..\lib\javassist-3.20.0-GA.jar;..\lib\javax.servlet-api-3.1.0.jar;..\lib\jcommon-1.0.16.jar;..\lib\jetty-6.1.26.jar;..\lib\jetty-util-6.1.26.jar;..\lib\jfreechart-1.0.13.jar;..\lib\jline-0.9.94.jar;..\lib\log4j-1.2.16.jar;..\lib\netty-3.2.5.Final.jar;..\lib\netty-3.7.0.Final.jar;..\lib\slf4j-api-1.7.25.jar;..\lib\slf4j-log4j12-1.7.25.jar;..\lib\spring-aop-4.3.10.RELEASE.jar;..\lib\spring-beans-4.3.10.RELEASE.jar;..\lib\spring-context-4.3.10.RELEASE.jar;..\lib\spring-core-4.3.10.RELEASE.jar;..\lib\spring-expression-4.3.10.RELEASE.jar;..\lib\spring-web-4.3.10.RELEASE.jar;..\lib\zookeeper-3.4.8.jar
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.library.path=E:\ProgramFiles\Java\jdk1.8.0_321\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\ProgramFiles\Java\jdk1.8.0_321\bin;E:\ProgramFiles\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;E:\ProgramFiles\anaconda3;E:\ProgramFiles\anaconda3\Scripts;E:\ProgramFiles\anaconda3\Library\bin;E:\ProgramFiles\anaconda3\Library\mingw-w64\bin;E:\ProgramFiles\anaconda3\Library\usr\bin;E:\ProgramFiles\Apache\apache-maven-3.9.9\bin;E:\ProgramFiles\MySQL\MySQL Server 8.0\bin;E:\ProgramFiles\Git\cmd;E:\ProgramFiles\nodejs\;E:\ProgramFiles\nodejs\node_global\node_modules;E:\ProgramFiles\NetSarang\Xshell 7\;E:\ProgramFiles\NetSarang\Xftp 7\;E:\ProgramFiles\Bandizip\;E:\ProgramFiles\Java\jdk1.8.0_321\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\hxt\AppData\Local\Microsoft\WindowsApps;E:\ProgramFiles\Microsoft VS Code\bin;E:\ProgramFiles\JetBrains\IntelliJ IDEA 2024.1.6\bin;E:\ProgramFiles\JetBrains\PyCharm 2024.1.6\bin;E:\ProgramFiles\nodejs\node_global;C:\Users\hxt\AppData\Local\Yarn\bin;C:\Users\hxt\AppData\Local\gitkraken\bin;.
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.io.tmpdir=C:\Users\hxt\AppData\Local\Temp\
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:java.compiler=<NA>
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:os.name=Windows 10
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:os.arch=amd64
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:os.version=10.0
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:user.name=hxt
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:user.home=C:\Users\hxt
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.Environment (Environment.java:100) - Client environment:user.dir=E:\AppData\IdeaProjects\dubbo\dubbo-monitor-simple-2.0.0\assembly.bin
+2024-11-18 22:06:28,551 [main] INFO  org.apache.zookeeper.ZooKeeper (ZooKeeper.java:438) - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@75437611
+2024-11-18 22:06:28,551 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1032) - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2024-11-18 22:06:28,551 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:876) - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2024-11-18 22:06:28,566 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1299) - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1000000e86f0001, negotiated timeout = 40000
+2024-11-18 22:06:28,566 [main-EventThread] INFO  org.apache.curator.framework.state.ConnectionStateManager (ConnectionStateManager.java:228) - State change: CONNECTED
+2024-11-18 22:10:19,719 [New I/O server worker #1-1] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:200) -  [DUBBO] All clients has discontected from /10.200.84.164:7070. You can graceful shutdown now., dubbo version: 2.6.0, current host: 10.200.84.164
+2024-11-18 22:31:09,990 [Curator-Framework-0] INFO  org.apache.curator.framework.imps.CuratorFrameworkImpl (CuratorFrameworkImpl.java:821) - backgroundOperationsLoop exiting
+2024-11-18 22:31:09,996 [DubboShutdownHook] INFO  org.apache.zookeeper.ZooKeeper (ZooKeeper.java:684) - Session: 0x1000000e86f0001 closed
+2024-11-18 22:31:09,997 [main-EventThread] ERROR org.apache.curator.framework.imps.CuratorFrameworkImpl (CuratorFrameworkImpl.java:566) - Watcher exception
+java.lang.IllegalStateException: instance must be started before calling this method
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:176)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.getChildren(CuratorFrameworkImpl.java:391)
+	at com.alibaba.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient$CuratorWatcherImpl.process(CuratorZookeeperClient.java:159)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:68)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:530)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:505)
+2024-11-18 22:31:10,000 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn$EventThread (ClientCnxn.java:519) - EventThread shut down for session: 0x1000000e86f0001
